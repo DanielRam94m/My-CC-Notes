@@ -30,7 +30,7 @@ To add the data from the *working directory* to the *staging area*, use `git add
 git add main.cc
 ```
 
-**TAKE CARE!**. although it seems easier just run the command `git add .` (in order to add all files to the repository), it could cause some problems, because this command could include unwanted files to the repository repository.
+**TAKE CARE!**. although it seems easier just run the command `git add .` (in order to add all files to the repository), it could cause some problems, because this command could include unwanted files to the repository.
 
 ## git commit
 To add the data from the *staging area* to the *local repo*, use `git commit -m "a brief description"`.
