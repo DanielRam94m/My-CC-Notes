@@ -122,8 +122,8 @@ And then you can do a `git push`.
 ![Git Logo](https://www.ticarte.com/sites/su/styles/max/public/users/7/teaser/git-logo.png?itok=xQhWd_9g)
 
 
-
-**Free Software, Hell Yeah!**
+Tutorial of reference:
+<https://youtu.be/8JJ101D3knE>
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
