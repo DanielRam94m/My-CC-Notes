@@ -29,7 +29,8 @@ To add the data from the *working directory* to the *staging area*, use `git add
 ```bash
 git add main.cc
 ```
-`git add .` will add all the content of the file
+
+**TAKE CARE!**. although it seems easier just run the command 'git add .' (in order to add all files to the repository), it could cause some problems, because this command could include unwanted files to the repository repository.
 
 ## git commit
 To add the data from the *staging area* to the *local repo*, use `git commit -m "a brief description"`.
@@ -107,9 +108,9 @@ To make a merge we move to the branch we want to save the changes and use the co
 git checkout master
 git merge dev-b
 ```
-If at the time of "merge" there are conflicts (two different versions of the same part of the code between both branches) we do the necessary changes and then we use the `git add .` command, so the changes will be moved to the *staging area*.
+If at the time of "merge" there are conflicts (two different versions of the same part of the code between both branches) we do the necessary changes and then we use the `git add fileName.extent` command, so the changes will be moved to the *staging area*.
 ```bash
-git add .
+git add main.cc
 ```
 Now we can do a `git commit "A brief description"`.
 You could do a `git log --oneline` in order to check if everything looks fine and there is not more conflicts.
